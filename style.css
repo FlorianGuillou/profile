@@ -1,0 +1,92 @@
+body {
+  background-image: url(images/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 718px;
+  background-color: #EEF8FF;
+}
+
+h1,h2 {
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blue;
+}
+
+p {
+  font-family: Georgia;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+  object-position: 50% 22%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  width: 470px;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+#description {
+  width: 398px;
+}
+
+#hobbies {
+  width: 200px;
+}
+
+#footer {
+  width: 200px;
+}
+
+ul > li {
+  display: inline;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container p {
+  width: 90%;
+}
+
+.flex-container-description {
+  width: 60%;
+}
+
+@media (max-width: 1400px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+  }
+  body {
+    background-size: cover;
+  }
+}
+
+#welcome {
+  padding-left: 72px;
+}
